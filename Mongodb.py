@@ -6,10 +6,10 @@ from tweepy.streaming import StreamListener
 import pymongo
 from pymongo import MongoClient
  
-access_token = '1242339349791989766-9vCtXWjY0hK5hmn1Atrvwa8kVTV4Yd'
-access_token_secret = 'buJlr8JZ5rz7nTQ3xbRpgftGn3owXhCRjrAgESqjHyOqR'
-consumer_token = 'XSB0rCpjBqbDk9ugmtJ9cLK7r'
-consumer_token_secret = 'ecOMoT7t1e7HvdpC4uqosbH3xgWr4L9Idw2RSX31KbfRRUMDXV'
+access_token = 'your token here'
+access_token_secret = 'your token here'
+consumer_token = 'your token here'
+consumer_token_secret = 'your token here'
  
 auth = tweepy.OAuthHandler(consumer_token, consumer_token_secret)  
 auth.set_access_token(access_token, access_token_secret)  
